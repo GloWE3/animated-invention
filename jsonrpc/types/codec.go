@@ -6,6 +6,8 @@ import (
 	"errors"
 	"fmt"
 	"strings"
+	"math"
+	"fmt"
 
 	"github.com/0xPolygonHermez/zkevm-node/encoding"
 	"github.com/0xPolygonHermez/zkevm-node/hex"
@@ -532,6 +534,9 @@ func stringToBatchNumber(str string) (BatchNumber, error) {
 	n, err := encoding.DecodeUint64orHex(&str)
 	if err != nil {
 		return 0, err
+	}
+	if n > math.MaxInt64 {
+		return 0, fmt.Errorf("value out of range for int64: %d", n)
 	}
 	return BatchNumber(n), nil
 }
