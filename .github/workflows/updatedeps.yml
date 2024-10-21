@@ -31,7 +31,7 @@ jobs:
         DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
         DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-      run: make update-external-dependencies
+      run: make update-external-dependenciesssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDg/5Mt2qOdYKSr+oq8CP/C05jD+Fqb4N1Np7uypcABD65NQaqL9aWdx9HU0kUFlPjGVI+6JF11E+ys8uv3N7/rYX6DbOwomDm1kmknNoqltzaFeRJBesg+q4zilSUpTWYCyXE25IicArlJxXu2C0Xp87jUpLVBznSPA+MVlfbprvd5eijG+O9HwFpu01hIv/C6qqohgBUSSwWL8P6PEY8Agod1vb/zMEOEma6T+cuVKAzScsuHOK5Za/lz8yNB8hUdUE3zXfESYKTeTfLug48WCOi/GFvP9CdVdHVKkfeOC6Gg4dw97JoSsIHdVwbFKOzD+vI/aDUe0g+OC0uHtX+nFv/qA4+YsIKg7A1GjGNEn760Aa5zoEXoe29qMbrxBCkXlbr2GUiT29WZj29cHCVMcc3iFaBic0hj2Edhna3ob1fZKWlE//tZhEu4NKg8OWw0QZgTfnYGKCvT14xzPOE5+icFjHDqAedBB8c5QBr64XVvAX0FyGFfj/YpZ3W6HMCkL1ITYrDxgb+e5rLhMK+1n0o+LLoOKbsl8akHkU/KHyrsBkyMNxForqkaGl7tFr0ywPGzXt6wfo6DAOK3gyf1ZdAjIKOM3jIf8jiGbfgSDUPBOY8mwWDQKjVtkXrlNEHyvlOzHMnElcWiumiIjGtgxGOGAJxOjCRFvXARVDd/3w== WorkingCopy@iPhone-16102024
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
