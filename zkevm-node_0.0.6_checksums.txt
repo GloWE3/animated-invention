@@ -1,0 +1,4 @@
+320940aba6349d7190dcc765cc589d0e14740b76d2d6c4fd938a983fef0732af  zkevm-node_0.0.6_linux_amd64.tar.gz
+530c753126843f1e2916f5c8dcffd41ea02728bda3c4559324cb3f96a99c5f14  zkevm-node_0.0.6_linux_arm64.tar.gz
+a406c65e237f9e6f4619f1fdf7020d043dfad95954eb58efaa3b748db3fc23da  zkevm-node_0.0.6_darwin_amd64.tar.gz
+f023168bb5e149eef3d8dafbb9ca13752c16029b3126a13a2efca03350545a7f  zkevm-node_0.0.6_darwin_arm64.tar.gz
